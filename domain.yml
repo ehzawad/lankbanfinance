@@ -1,0 +1,140 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - define_finsmart
+  - finsmart_app_issue
+  - finsmart_registration_process
+  - account_details
+  - affirm
+  - agroj_customer_age
+  - applicable_charge
+  - apply_for_deposit
+  - auto_loan_adjust_area
+  - beftn_fee
+  - beftn_signup
+  - bot_challenge
+  - card_courier_problem
+  - card_delivery_issue
+  - chequebook_fee
+  - credit_card_bill_via_bank
+  - credit_card_payment_via_booth
+  - credit_care_yearly_charge
+  - define_beftn
+  - deny
+  - deposit_amount_pay
+  - deposit_payment_solution
+  - digital_payment_charges
+  - digital_payment_process
+  - documents_for_applying_card
+  - documents_for_loan
+  - dollar_endorse_capable
+  - emi_settlement_outstanding
+  - fund_transfer_mobile_wallet
+  - greet
+  - goodbye
+  - home_loan_other_charges
+  - home_loan_processing_fee
+  - interest_rate_home_loan
+  - interest_rate_housing_loan
+  - interest_rate_property_loan
+  - interest_related_query
+  - minimum_net_income_auto_loan_application
+  - mobile_recharge
+  - mood_great
+  - mood_unhappy
+  - normal_deposit_documents
+  - only_nagad_digital_payment_process
+  - payment_amount_limit
+  - payment_update_time
+  - penal_interest_charge
+  - personal_loan_for_land_lord
+  - personal_loan_for_salaried_person
+  - personal_Loan_for_unsecured_businessperson
+  - protiva_documents
+  - ssl_wireless_payment_service
+  - swasti_documents
+  - take_loan
+  - tdr_against_short_term_loan_rate
+  - transfer_process_beftn
+  - various_update
+  - wrong_card_charge
+
+
+entities:
+- ORG
+
+slots:
+  predicted_intent:
+    type: text
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+
+
+actions:
+  - action_define_finsmart
+  - action_finsmart_app_issue
+  - action_finsmart_registration_process
+  - action_account_details
+  - action_agroj_customer_age
+  - action_applicable_charge
+  - action_apply_for_deposit
+  - action_auto_loan_adjust_area
+  - action_beftn_fee
+  - action_beftn_signup
+  - action_card_courier_problem
+  - action_card_delivery_issue
+  - action_chequebook_fee
+  - action_credit_card_bill_via_bank
+  - action_credit_card_payment_via_booth
+  - action_credit_care_yearly_charge
+  - action_define_beftn
+  - action_deposit_amount_pay
+  - action_deposit_payment_solution
+  - action_digital_payment_charges
+  - action_digital_payment_process
+  - action_documents_for_applying_card
+  - action_documents_for_loan
+  - action_dollar_endorse_capable
+  - action_emi_settlement_outstanding
+  - action_fund_transfer_mobile_wallet
+  - action_home_loan_other_charges
+  - action_home_loan_processing_fee
+  - action_interest_rate_home_loan
+  - action_interest_rate_housing_loan
+  - action_interest_rate_property_loan
+  - action_interest_related_query
+  - action_minimum_net_income_auto_loan_application
+  - action_mobile_recharge
+  - action_normal_deposit_documents
+  - action_only_nagad_digital_payment_process
+  - action_payment_amount_limit
+  - action_payment_update_time
+  - action_penal_interest_charge
+  - action_personal_loan_for_land_lord
+  - action_personal_loan_for_salaried_person
+  - action_personal_Loan_for_unsecured_businessperson
+  - action_protiva_documents
+  - action_ssl_wireless_payment_service
+  - action_swasti_documents
+  - action_take_loan
+  - action_tdr_against_short_term_loan_rate
+  - action_transfer_process_beftn
+  - action_various_update
+  - action_wrong_card_charge
+  - utter_greet

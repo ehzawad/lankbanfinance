@@ -1,0 +1,30 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+
+pipeline:
+- name: SpacyNLP
+  model: "en_core_web_md"
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
+  min_ngram: 2
+  max_ngram: 5
+- name: DIETClassifier
+  epochs: 100
+  constrain_similarities: True  # Explicitly set, even if not usually required
+- name: FallbackClassifier
+  threshold: 0.90
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: TEDPolicy
+  epochs: 100
+  max_history: 5
+  constrain_similarities: True
