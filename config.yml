@@ -14,7 +14,7 @@ pipeline:
   min_ngram: 2
   max_ngram: 5
 - name: DIETClassifier
-  epochs: 100
+  epochs: 200
   constrain_similarities: True  # Explicitly set, even if not usually required
 - name: FallbackClassifier
   threshold: 0.90
@@ -25,6 +25,6 @@ policies:
 - name: MemoizationPolicy
 - name: RulePolicy
 - name: TEDPolicy
-  epochs: 100
+  epochs: 200
   max_history: 5
   constrain_similarities: True
