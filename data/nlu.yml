@@ -53,19 +53,6 @@ nlu:
     - I'm clueless about topping up my mobile; can you assist?
     - I want to load up my phone; how do I do it?
     - I need to put money on my phone; can you help me?
-- intent: card_courier_problem
-  examples: |
-    - Card delivery problem. Need assistance
-    - Card courier issue. Help?
-    - Card not here. What to do?
-    - Card courier delay. Status update?
-    - Card not received. Check please.
-    - Courier problem with my card. Who to contact?
-    - New card not delivered. How to resolve?
-    - Card delivery delay. Investigate?
-    - No card yet. Can you help?
-    - What to do if card not delivered?
-    - Card not delivered. What to do?
 - intent: dollar_endorse_capable
   examples: |
     - Is it possible to dollar endorsement by LBFL card?
@@ -181,6 +168,16 @@ nlu:
     - The courier seems to have an issue delivering the card I applied for.
     - I have an issue with the delivery of my card
     - I have an issue with the card courier
+    - Card delivery problem. Need assistance
+    - Card courier issue. Help?
+    - Card not here. What to do?
+    - Card courier delay. Status update?
+    - Card not received. Check please.
+    - Courier problem with my card. Who to contact?
+    - New card not delivered. How to resolve?
+    - Card delivery delay. Investigate?
+    - What to do if card not delivered?
+    - Card not delivered. What to do?
 - intent: credit_care_yearly_charge
   examples: |
     - What is the yearly charge for a credit card?
@@ -399,15 +396,9 @@ nlu:
     - How do I pay my deposit amount?
 - intent: deposit_payment_solution
   examples: |
-    - Deposit payment solution
-    - How can I pay my deposit?
-    - How do I pay my deposit?
-    - How to pay my deposit?
-    - please tell me how to pay my deposit
-    - help me to pay my deposit
-    - assist me to pay my deposit
-    - How can I pay my deposit amount?
-    - How do I pay my deposit amount?
+    - tell me about deposit payment solution
+    - What is the deal with deposit payment solution
+    - What is the link for deposit payment solution
 - intent: take_loan
   examples: |
     - How can I take loan?

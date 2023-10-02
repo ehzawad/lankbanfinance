@@ -31,13 +31,6 @@ stories:
     intent: mobile_recharge
   - action: action_mobile_recharge
 
-- story: card courier problem
-  steps:
-  - user: |
-      I have an issue with the card courier
-    intent: card_courier_problem
-  - action: action_card_courier_problem
-
 - story: dollar endorse capable
   steps:
   - user: |

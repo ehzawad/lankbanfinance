@@ -33,21 +33,6 @@ class ActionMobileRecharge(Action):
 
         return []
     
-
-class ActionCardCourierProblem(Action):
-
-    def name(self) -> Text:
-        return "action_card_courier_problem"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Hi, please communicate with the concern RM. He is supposed to give you the update. For any other query call 16325.")
-
-        return []
-    
-
 class ActionDollarEndorseCapable(Action):
 
     def name(self) -> Text:

@@ -14,11 +14,6 @@ stories:
   - intent: mobile_recharge
   - action: action_mobile_recharge
 
-- story: card courier problem
-  steps:
-  - intent: card_courier_problem
-  - action: action_card_courier_problem
-
 - story: dollar endorse capable
   steps:
   - intent: dollar_endorse_capable

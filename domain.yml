@@ -16,7 +16,6 @@ intents:
 - auto_loan_adjust_area
 - beftn_signup
 - bot_challenge
-- card_courier_problem
 - chequebook_fee
 - credit_card_bill_via_bank
 - credit_card_payment_via_booth
@@ -83,7 +82,6 @@ actions:
 - action_auto_loan_adjust_area
 - action_beftn_fee
 - action_beftn_signup
-- action_card_courier_problem
 - action_card_delivery_issue
 - action_chequebook_fee
 - action_credit_card_bill_via_bank
