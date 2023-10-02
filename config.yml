@@ -11,13 +11,13 @@ pipeline:
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
   analyzer: "char_wb"
-  min_ngram: 1
+  min_ngram: 2
   max_ngram: 4
 - name: DIETClassifier
-  epochs: 200
+  epochs: 100
   constrain_similarities: True  # Explicitly set, even if not usually required
 - name: FallbackClassifier
-  threshold: 0.70
+  threshold: 0.55
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
@@ -25,6 +25,6 @@ policies:
 - name: MemoizationPolicy
 - name: RulePolicy
 - name: TEDPolicy
-  epochs: 200
+  epochs: 100
   max_history: 5
   constrain_similarities: True

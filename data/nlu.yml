@@ -16,7 +16,6 @@ nlu:
     - goodevening
     - good afternoon
     - Hi
-
 - intent: affirm
   examples: |
     - yes
@@ -34,8 +33,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -84,53 +81,54 @@ nlu:
     - Dollar endorsement LBFL?
 - intent: beftn_fee
   examples: |
-    - [BEFTN](ORG) processing fee?
-    - Cost of [BEFTN](ORG) transfers?
-    - [BEFTN](ORG) transaction charges?
-    - [BEFTN](ORG) fees info?
-    - [BEFTN](ORG) transfer cost?
-    - How much for [BEFTN](ORG)?
-    - Price of [BEFTN](ORG) transfer?
-    - [BEFTN](ORG) processing charges?
-    - What's [BEFTN](ORG) cost?
+    - BEFTN processing fee?
+    - Cost of BEFTN transfers?
+    - BEFTN transaction charges?
+    - BEFTN fees info?
+    - BEFTN transfer cost?
+    - How much for BEFTN?
+    - Price of BEFTN transfer?
+    - BEFTN processing charges?
+    - What's BEFTN cost?
+    - What are the fees for BEFTN
 - intent: transfer_process_beftn
   examples: |
-    - How can I transfer money through [BEFTN](ORG)
-    - How to transfer money via [BEFTN](ORG)?
-    - [BEFTN](ORG) money transfer steps?
-    - Send money through [BEFTN](ORG)?
-    - [BEFTN](ORG) transfer process?
-    - How to use [BEFTN](ORG) for money transfer?
-    - [BEFTN](ORG) transaction procedure?
-    - Steps for [BEFTN](ORG) money transfer?
-    - [BEFTN](ORG) transfer method?
-    - Send money with [BEFTN](ORG)?
-    - [BEFTN](ORG) money transfer guide?
-    - How to send money via [BEFTN](ORG)?
+    - How can I transfer money through BEFTN
+    - How to transfer money via BEFTN?
+    - BEFTN money transfer steps?
+    - Send money through BEFTN?
+    - BEFTN transfer process?
+    - How to use BEFTN for money transfer?
+    - BEFTN transaction procedure?
+    - Steps for BEFTN money transfer?
+    - BEFTN transfer method?
+    - Send money with BEFTN?
+    - BEFTN money transfer guide?
+    - How to send money via BEFTN?
 - intent: beftn_signup
   examples: |
-    - How to enroll in [BEFTN](ORG)?
-    - [BEFTN](ORG) enrollment process?
-    - How can I enroll in [BEFTN](ORG)?
-    - Sign up for [BEFTN](ORG)?
-    - [BEFTN](ORG) registration steps?
-    - How can I join [BEFTN](ORG)?
-    - [BEFTN](ORG) membership?
-    - [BEFTN](ORG) enrollment guide?
-    - Enroll in [BEFTN](ORG) services?
-    - How to get started with [BEFTN](ORG)?
+    - How to enroll in BEFTN?
+    - BEFTN enrollment process?
+    - How can I enroll in BEFTN?
+    - Sign up for BEFTN?
+    - BEFTN registration steps?
+    - How can I join BEFTN?
+    - BEFTN membership?
+    - BEFTN enrollment guide?
+    - Enroll in BEFTN services?
+    - How to get started with BEFTN?
 - intent: define_beftn
   examples: |
-    - What is [BEFTN](ORG)?
-    - [BEFTN](ORG) explanation?
-    - Tell me about [BEFTN](ORG).
-    - What does [BEFTN](ORG) mean?
-    - Explain [BEFTN](ORG) to me.
-    - [BEFTN](ORG) definition?
-    - What is [BEFTN](ORG) exactly?
-    - [BEFTN](ORG) in a nutshell?
-    - Can you describe [BEFTN](ORG)?
-    - What's the deal with [BEFTN](ORG)?
+    - What is BEFTN?
+    - BEFTN explanation?
+    - Tell me about BEFTN.
+    - What does BEFTN mean?
+    - Explain BEFTN to me.
+    - BEFTN definition?
+    - What is BEFTN exactly?
+    - BEFTN in a nutshell?
+    - Can you describe BEFTN?
+    - What's the deal with BEFTN?
 - intent: chequebook_fee
   examples: |
     - How much fee for chequebook?
@@ -181,6 +179,8 @@ nlu:
     - I applied for a card, but it's taking too long to arrive.
     - My card hasn't been delivered, and I'm concerned because I applied for it.
     - The courier seems to have an issue delivering the card I applied for.
+    - I have an issue with the delivery of my card
+    - I have an issue with the card courier
 - intent: credit_care_yearly_charge
   examples: |
     - What is the yearly charge for a credit card?
@@ -196,6 +196,7 @@ nlu:
     - Tell me the amount I'll be charged yearly for a credit card.
 - intent: documents_for_applying_card
   examples: |
+    - What documents do I need to apply for a card?
     - Please provide the documentation requirements for applying for a new card.
     - What documents are needed when applying for a new card?
     - Could you list the necessary paperwork for a new card application?
@@ -208,6 +209,7 @@ nlu:
     - Could you outline the necessary documentation for a new card application, please?
 - intent: credit_card_payment_via_booth
   examples: |
+    - How can I make a credit card payment via a booth?
     - How do you pay credit card bills using a booth?
     - How do I pay my credit card bill at a booth?
     - Explain how to use a booth to pay my credit card bill.
@@ -233,6 +235,8 @@ nlu:
     - Please specify the banks I can use to pay my credit card bills.
 - intent: fund_transfer_mobile_wallet
   examples: |
+    - How can I transfer funds to my mobile wallet?
+    - How do I transfer money to my mobile wallet?
     - Fund transfer processing fee for adding money to bKash
     - How much does it cost to add money to bKash?
     - What's the fee for adding money to bKash?
@@ -266,6 +270,13 @@ nlu:
     - How can I add money in my bkash account from my VISA card?
     - What will be charges for SSL wireless payment service?
     - How to make payment through bkash via SSL wireless?
+    - Tell me about the SSL wireless payment service.
+    - How can I pay my SSL wireless bill through bkash?
+    - How can I pay my SSL wireless bill through Rocket?
+    - How can I pay my SSL wireless bill through Nagad?
+    - How can I pay my SSL wireless bill through Upay?
+    - How can I pay my SSL wireless bill through iPay?
+    - How can I pay my SSL wireless bill through SureCash?
 - intent: digital_payment_charges
   examples: |
     - Digital payment charges
@@ -362,10 +373,10 @@ nlu:
     - Tell me about the age range for Agroj customers.
 - intent: interest_related_query
   examples: |
-    - Interest related query
     - What's the interest rate for a deposit?
     - Can you tell me the interest rate for a deposit?
     - Please tell me the interest rate for a deposit.
+    - I have a query related to interest for a desposit
 - intent: account_details
   examples: |
     - tell me about my account
@@ -377,37 +388,37 @@ nlu:
     - I want to know about my account balance information
 - intent: deposit_amount_pay
   examples: |
-    - Deposit amount pay
+    - How can I pay a deposit amount?
     - How can I pay my deposit amount?
     - How do I pay my deposit amount?
     - How to pay my deposit amount?
-    - How can I pay my deposit amount?
     - please tell me how to pay my deposit amount
     - help me to pay my deposit amount
     - assist me to pay my deposit amount
-
+    - How can I pay my deposit amount?
+    - How do I pay my deposit amount?
 - intent: deposit_payment_solution
   examples: |
     - Deposit payment solution
     - How can I pay my deposit?
     - How do I pay my deposit?
     - How to pay my deposit?
-    - How can I pay my deposit?
     - please tell me how to pay my deposit
     - help me to pay my deposit
     - assist me to pay my deposit
-
+    - How can I pay my deposit amount?
+    - How do I pay my deposit amount?
 - intent: take_loan
   examples: |
     - How can I take loan?
     - How do I take loan?
     - How to take loan?
-    - How can I take loan?
     - please tell me how to take loan
     - help me to take loan
     - assist me to take loan
-
-
+    - How can I apply for a loan?
+    - How do I apply for a loan?
+    - How to apply for a loan?
 - intent: payment_update_time
   examples: |
     - Payment update time
@@ -416,14 +427,12 @@ nlu:
     - please tell me how much time it will take to update my payment
     - help me to know how much time it will take to update my payment
     - assist me to know how much time it will take to update my payment
-
 - intent: applicable_charge
   examples: |
-    - How much charge will be applicable?
-    - How much charge will be applicable for this service?
-    - How much charge will be applicable for this transaction?
+    - How much charge will be applicable for this loan?
+    - How much charge will be applicable for this loan service?
+    - How much charge will be applicable for this loan related transaction?
     - applicable charge
-
 - intent: payment_amount_limit
   examples: |
     - What is the payment amount limit?
@@ -431,10 +440,9 @@ nlu:
     - What is the payment amount limit for this transaction?
     - payment amount limit
     - Is there any limitation on the payment amount?
-
 - intent: documents_for_loan
   examples: |
-    - documents for loan
+    - What documents are required for a loan application?
     - What documents do I need for loan?
     - Can you list the papers I should have for loan?
     - What are the necessary documents for loan?
@@ -445,18 +453,15 @@ nlu:
     - What must I bring as documents for loan?
     - Tell me about the required paperwork for loan.
     - What do I need in terms of documents for loan?
-
 - intent: emi_settlement_outstanding
   examples: |
     - EMI settlement outstanding
     - How can I settle my EMI outstanding?
     - How do I settle my EMI outstanding?
     - How to settle my EMI outstanding?
-    - How can I settle my EMI outstanding?
     - please tell me how to settle my EMI outstanding
     - help me to settle my EMI outstanding
     - assist me to settle my EMI outstanding
-
 - intent: interest_rate_home_loan
   examples: |
     - Interest rate home loan
@@ -466,9 +471,7 @@ nlu:
     - What's the interest rate for home loan?
     - Explain the interest rate for home loan.
     - Could you specify the interest rate for home loan?
-    - What's the interest rate for home loan?
     - Tell me about the interest rate for home loan.
-
 - intent: interest_rate_housing_loan
   examples: |
     - Interest rate housing loan
@@ -478,9 +481,7 @@ nlu:
     - What's the interest rate for housing loan?
     - Explain the interest rate for housing loan.
     - Could you specify the interest rate for housing loan?
-    - What's the interest rate for housing loan?
     - Tell me about the interest rate for housing loan.
-
 - intent: interest_rate_property_loan
   examples: |
     - Interest rate property loan
@@ -490,9 +491,7 @@ nlu:
     - What's the interest rate for property loan?
     - Explain the interest rate for property loan.
     - Could you specify the interest rate for property loan?
-    - What's the interest rate for property loan?
     - Tell me about the interest rate for property loan.
-
 - intent: home_loan_processing_fee
   examples: |
     - Home loan processing fee
@@ -503,9 +502,7 @@ nlu:
     - What's the processing fee for home loan?
     - Explain the processing fee for home loan.
     - Could you specify the processing fee for home loan?
-    - What's the processing fee for home loan?
     - Tell me about the processing fee for home loan.
-
 - intent: penal_interest_charge
   examples: |
     - Penal interest charge
@@ -516,10 +513,7 @@ nlu:
     - What's the penal interest charge?
     - Explain the penal interest charge.
     - Could you specify the penal interest charge?
-    - What's the penal interest charge?
     - Tell me about the penal interest charge.
-
-# home loan other charges include  charges for Vetting, Survey, Valuation, Registration, Mortgage, Charge Creation, Hypothecation, Tax & VAT, Redemption Fee, Cancellation of Power fee etc
 - intent: home_loan_other_charges
   examples: |
     - home loan vetting charges
@@ -552,7 +546,6 @@ nlu:
     - home loan flood certification fees
     - home loan title insurance fees
     - home loan maintenance fees
-
 - intent: minimum_net_income_auto_loan_application
   examples: |
     - minimum net income auto loan application
@@ -562,69 +555,58 @@ nlu:
     - What's the minimum net income for auto loan application?
     - Explain the minimum net income for auto loan application.
     - Could you specify the minimum net income for auto loan application?
-    - What's the minimum net income for auto loan application?
     - Tell me about the minimum net income for auto loan application.
-
 - intent: auto_loan_adjust_area
   examples: |
     - auto loan adjust area
     - How can I adjust my auto loan area?
     - How do I adjust my auto loan area?
     - How to adjust my auto loan area?
-    - How can I adjust my auto loan area?
     - please tell me how to adjust my auto loan area
     - help me to adjust my auto loan area
     - assist me to adjust my auto loan area
-
 - intent: personal_loan_for_salaried_person
   examples: |
-    - personal loan for salaried person
+    - How can a salaried person apply for a personal loan?
     - What is the personal loan for salaried person?
     - Can you tell me the personal loan for salaried person?
     - Please tell me the personal loan for salaried person.
     - What's the personal loan for salaried person?
     - Explain the personal loan for salaried person.
     - Could you specify the personal loan for salaried person?
-    - What's the personal loan for salaried person?
     - Tell me about the personal loan for salaried person.
-
 - intent: personal_loan_for_land_lord
   examples: |
     - personal loan for land lord
     - What is the personal loan for land lord?
     - Can you tell me the personal loan for land lord?
     - Please tell me the personal loan for land lord.
+    - Can a landlord apply for a personal loan?
     - What's the personal loan for land lord?
     - Explain the personal loan for land lord.
     - Could you specify the personal loan for land lord?
-    - What's the personal loan for land lord?
     - Tell me about the personal loan for land lord.
-
 - intent: personal_Loan_for_unsecured_businessperson
   examples: |
-    - personal Loan for unsecured businessperson
+    - How can an unsecured businessperson apply for a personal loan
     - What is the personal Loan for unsecured businessperson?
     - Can you tell me the personal Loan for unsecured businessperson?
     - Please tell me the personal Loan for unsecured businessperson.
     - What's the personal Loan for unsecured businessperson?
     - Explain the personal Loan for unsecured businessperson.
+    - What's the personal Loan for unsecured businessman?
+    - Explain the personal Loan for unsecured businesswoman.
     - Could you specify the personal Loan for unsecured businessperson?
-    - What's the personal Loan for unsecured businessperson?
     - Tell me about the personal Loan for unsecured businessperson.
-
 - intent: tdr_against_short_term_loan_rate
   examples: |
-    - tdr against short term loan rate
     - What is the tdr against short term loan rate?
     - Can you tell me the tdr against short term loan rate?
     - Please tell me the tdr against short term loan rate.
     - What's the tdr against short term loan rate?
     - Explain the tdr against short term loan rate.
     - Could you specify the tdr against short term loan rate?
-    - What's the tdr against short term loan rate?
     - Tell me about the tdr against short term loan rate.
-
-
 - intent: define_finsmart
   examples: |
     - What is Finsmart?
@@ -637,30 +619,28 @@ nlu:
     - Finsmart in a nutshell?
     - Can you describe Finsmart?
     - What's the deal with Finsmart?
-
 - intent: finsmart_app_issue
   examples: |
-    - Finsmart app issue
-    - Finsmart app not working
+    - My Finsmart app not working
     - Finsmart app not opening
     - Finsmart app not responding
     - Finsmart app not loading
     - Finsmart app not starting
     - Finsmart app not running
     - Finsmart app not functioning
-    - Finsmart app not opening
     - I can't see anything in my FInSmart App
-
+    - I'm facing a finsmart app issue
+    - My FinSmart App is not working
+    - My FinSmart App is not opening
 - intent: finsmart_registration_process
   examples: |
-    - Finsmart registrtion process
+    - Finsmart registrtion process steps
     - Finsmart registration steps
     - Finsmart registration procedure
-    - Finsmart registration method
+    - How to register in finsmart?
+    - What is the registration process for finsmart?
+    - How can I register in finsmart?
     - Finsmart registration guide
     - Finsmart registration process
-    - Finsmart registration steps
-    - Finsmart registration procedure
-    - Finsmart registration method
-    - Finsmart registration guide
     - What will be the enroll process for finsmart?
+    - How can I enroll in finsmart?

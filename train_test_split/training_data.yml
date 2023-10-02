@@ -169,13 +169,13 @@ nlu:
     - Could you specify the tdr against short term loan rate?
 - intent: beftn_fee
   examples: |
-    - What's [BEFTN](ORG) cost?
-    - How much for [BEFTN](ORG)?
-    - [BEFTN](ORG) transfer cost?
-    - Cost of [BEFTN](ORG) transfers?
-    - [BEFTN](ORG) processing fee?
-    - [BEFTN](ORG) processing charges?
-    - Price of [BEFTN](ORG) transfer?
+    - What's BEFTN cost?
+    - How much for BEFTN?
+    - BEFTN transfer cost?
+    - Cost of BEFTN transfers?
+    - BEFTN processing fee?
+    - BEFTN processing charges?
+    - Price of BEFTN transfer?
 - intent: card_delivery_issue
   examples: |
     - There's an issue with delivering the card I applied for.
@@ -215,24 +215,24 @@ nlu:
     - I can't see anything in my FInSmart App
 - intent: beftn_signup
   examples: |
-    - How to get started with [BEFTN](ORG)?
-    - Sign up for [BEFTN](ORG)?
-    - How can I join [BEFTN](ORG)?
-    - How can I enroll in [BEFTN](ORG)?
-    - [BEFTN](ORG) registration steps?
-    - How to enroll in [BEFTN](ORG)?
-    - [BEFTN](ORG) membership?
-    - Enroll in [BEFTN](ORG) services?
+    - How to get started with BEFTN?
+    - Sign up for BEFTN?
+    - How can I join BEFTN?
+    - How can I enroll in BEFTN?
+    - BEFTN registration steps?
+    - How to enroll in BEFTN?
+    - BEFTN membership?
+    - Enroll in BEFTN services?
 - intent: define_beftn
   examples: |
-    - What's the deal with [BEFTN](ORG)?
-    - Explain [BEFTN](ORG) to me.
-    - [BEFTN](ORG) in a nutshell?
-    - What is [BEFTN](ORG)?
-    - Tell me about [BEFTN](ORG).
-    - What is [BEFTN](ORG) exactly?
-    - Can you describe [BEFTN](ORG)?
-    - [BEFTN](ORG) explanation?
+    - What's the deal with BEFTN?
+    - Explain BEFTN to me.
+    - BEFTN in a nutshell?
+    - What is BEFTN?
+    - Tell me about BEFTN.
+    - What is BEFTN exactly?
+    - Can you describe BEFTN?
+    - BEFTN explanation?
 - intent: documents_for_applying_card
   examples: |
     - Could you outline the necessary documentation for a new card application, please?
@@ -406,15 +406,15 @@ nlu:
     - How do I put money on my phone?
 - intent: transfer_process_beftn
   examples: |
-    - Send money with [BEFTN](ORG)?
-    - How to transfer money via [BEFTN](ORG)?
-    - [BEFTN](ORG) transfer process?
-    - Steps for [BEFTN](ORG) money transfer?
-    - [BEFTN](ORG) transaction procedure?
-    - [BEFTN](ORG) money transfer steps?
-    - How can I transfer money through [BEFTN](ORG)
-    - [BEFTN](ORG) transfer method?
-    - How to send money via [BEFTN](ORG)?
+    - Send money with BEFTN?
+    - How to transfer money via BEFTN?
+    - BEFTN transfer process?
+    - Steps for BEFTN money transfer?
+    - BEFTN transaction procedure?
+    - BEFTN money transfer steps?
+    - How can I transfer money through BEFTN
+    - BEFTN transfer method?
+    - How to send money via BEFTN?
 - intent: digital_payment_process
   examples: |
     - From LankaBangla to bkash digital payment process

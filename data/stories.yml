@@ -42,8 +42,6 @@ stories:
 - story: define beftn
   steps:
   - intent: define_beftn
-    entities:
-    - ORG: BEFTN
   - action: action_define_beftn
 
 - story: chequebook fee

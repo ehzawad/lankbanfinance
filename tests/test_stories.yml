@@ -1,0 +1,348 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+# - story: bot challenge
+#   steps:
+#   - user: |
+#       are you a bot?
+#     intent: bot_challenge
+#   - action: utter_iamabot 
+
+- story: finsmart registration process
+  steps:
+  - user: |
+      what is the finsmart registration process
+    intent: finsmart_registration_process
+  - action: action_finsmart_registration_process
+
+- story: finsmart app issue
+  steps:
+  - user: |
+      I'm facing a finsmart app issue
+    intent: finsmart_app_issue
+  - action: action_finsmart_app_issue
+
+
+- story: mobile recharge
+  steps:
+  - user: |
+      I want to do a mobile recharge
+    intent: mobile_recharge
+  - action: action_mobile_recharge
+
+- story: card courier problem
+  steps:
+  - user: |
+      I have an issue with the card courier
+    intent: card_courier_problem
+  - action: action_card_courier_problem
+
+- story: dollar endorse capable
+  steps:
+  - user: |
+      Is the dollar endorse capable?
+    intent: dollar_endorse_capable
+  - action: action_dollar_endorse_capable
+
+- story: beftn fee
+  steps:
+  - user: |
+      What are the fees for BEFTN?
+    intent: beftn_fee
+  - action: action_beftn_fee
+
+- story: transfer process beftn
+  steps:
+  - user: |
+      Explain the transfer process for BEFTN
+    intent: transfer_process_beftn
+  - action: action_transfer_process_beftn
+
+- story: action beftn signup
+  steps:
+  - user: |
+      How do I sign up for BEFTN?
+    intent: beftn_signup
+  - action: action_beftn_signup
+
+- story: define beftn
+  steps:
+  - user: |
+      Can you define what BEFTN stands for?
+    intent: define_beftn
+  - action: action_define_beftn
+
+- story: chequebook fee
+  steps:
+  - user: |
+      How much is the fee for a chequebook?
+    intent: chequebook_fee
+  - action: action_chequebook_fee
+
+- story: wrong card charge
+  steps:
+  - user: |
+      There seems to be a wrong charge on my card.
+    intent: wrong_card_charge
+  - action: action_wrong_card_charge
+
+
+- story: card delivery issue
+  steps:
+  - user: |
+      I have an issue with the delivery of my card.
+    intent: card_delivery_issue
+  - action: action_card_delivery_issue
+
+- story: credit care yearly charge
+  steps:
+  - user: |
+      What's the yearly charge for my credit card?
+    intent: credit_care_yearly_charge
+  - action: action_credit_care_yearly_charge
+
+- story: documents for applying card
+  steps:
+  - user: |
+      What documents do I need to apply for a card?
+    intent: documents_for_applying_card
+  - action: action_documents_for_applying_card
+
+- story: credit card payment via booth
+  steps:
+  - user: |
+      How can I make a credit card payment via a booth?
+    intent: credit_card_payment_via_booth
+  - action: action_credit_card_payment_via_booth
+
+- story: credit card bill via bank
+  steps:
+  - user: |
+      Can I pay my credit card bill via the bank?
+    intent: credit_card_bill_via_bank
+  - action: action_credit_card_bill_via_bank
+
+- story: fund transfer mobile wallet
+  steps:
+  - user: |
+      How can I transfer funds to my mobile wallet?
+    intent: fund_transfer_mobile_wallet
+  - action: action_fund_transfer_mobile_wallet
+
+- story: ssl wireless payment service
+  steps:
+  - user: |
+      Tell me about the SSL wireless payment service.
+    intent: ssl_wireless_payment_service
+  - action: action_ssl_wireless_payment_service
+
+- story: digital payment charges
+  steps:
+  - user: |
+      What are the charges for digital payments?
+    intent: digital_payment_charges
+  - action: action_digital_payment_charges
+
+- story: digital payment process
+  steps:
+  - user: |
+      Tell me the digital payment process.
+    intent: digital_payment_process
+  - action: action_digital_payment_process
+
+- story: apply for deposit
+  steps:
+  - user: |
+      How can I apply for a deposit?
+    intent: apply_for_deposit
+  - action: action_apply_for_deposit
+
+- story: swasti documents
+  steps:
+  - user: |
+      What documents are required for Swasti?
+    intent: swasti_documents
+  - action: action_swasti_documents
+
+- story: protiva documents
+  steps:
+  - user: |
+      What documents do I need for Protiva?
+    intent: protiva_documents
+  - action: action_protiva_documents
+
+- story: normal deposit documents
+  steps:
+  - user: |
+      What documents are required for a normal deposit?
+    intent: normal_deposit_documents
+  - action: action_normal_deposit_documents
+
+- story: agroj customer age
+  steps:
+  - user: |
+      How can I find out my age as an Agroj customer?
+    intent: agroj_customer_age
+  - action: action_agroj_customer_age
+
+- story: interest related query
+  steps:
+  - user: |
+      I have a query related to interest for a deposit.
+    intent: interest_related_query
+  - action: action_interest_related_query
+
+- story: account details
+  steps:
+  - user: |
+      I need details about my account.
+    intent: account_details
+  - action: action_account_details
+
+- story: deposit amount pay
+  steps:
+  - user: |
+      How can I pay a deposit amount?
+    intent: deposit_amount_pay
+  - action: action_deposit_amount_pay
+
+- story: deposit payment solution
+  steps:
+  - user: |
+      What's the payment solution for deposits?
+    intent: deposit_payment_solution
+  - action: action_deposit_payment_solution
+
+- story: take loan
+  steps:
+  - user: |
+      How can I apply for a loan?
+    intent: take_loan
+  - action: action_take_loan
+
+- story: payment update time
+  steps:
+  - user: |
+      When is the payment update time?
+    intent: payment_update_time
+  - action: action_payment_update_time
+
+- story: applicable charge
+  steps:
+  - user: |
+      What charges are applicable for the loan services?
+    intent: applicable_charge
+  - action: action_applicable_charge
+
+- story: payment amount limit
+  steps:
+  - user: |
+      Is there a limit on the payment amount?
+    intent: payment_amount_limit
+  - action: action_payment_amount_limit
+
+- story: documents for loan
+  steps:
+  - user: |
+      What documents are required for a loan application?
+    intent: documents_for_loan
+  - action: action_documents_for_loan
+
+- story: emi settlement outstanding
+  steps:
+  - user: |
+      How can I settle my EMI outstanding?
+    intent: emi_settlement_outstanding
+  - action: action_emi_settlement_outstanding
+
+- story: interest rate home loan
+  steps:
+  - user: |
+      What's the interest rate for a home loan?
+    intent: interest_rate_home_loan
+  - action: action_interest_rate_home_loan
+
+- story: interest rate housing loan
+  steps:
+  - user: |
+      What's the interest rate for a housing loan?
+    intent: interest_rate_housing_loan
+  - action: action_interest_rate_housing_loan
+
+- story: interest rate property loan
+  steps:
+  - user: |
+      What's the interest rate for a property loan?
+    intent: interest_rate_property_loan
+  - action: action_interest_rate_property_loan
+
+- story: home loan processing fee
+  steps:
+  - user: |
+      What's the processing fee for a home loan?
+    intent: home_loan_processing_fee
+  - action: action_home_loan_processing_fee
+
+- story: penal interest charge
+  steps:
+  - user: |
+      Is there a penal interest charge?
+    intent: penal_interest_charge
+  - action: action_penal_interest_charge
+
+- story: home loan other charges
+  steps:
+  - user: |
+      Are there any other charges for a home loan?
+    intent: home_loan_other_charges
+  - action: action_home_loan_other_charges
+
+- story: minimum net income auto loan application
+  steps:
+  - user: |
+      What's the minimum net income required for an auto loan application?
+    intent: minimum_net_income_auto_loan_application
+  - action: action_minimum_net_income_auto_loan_application
+
+- story: auto loan adjust area
+  steps:
+  - user: |
+      Can I adjust the area for an auto loan?
+    intent: auto_loan_adjust_area
+  - action: action_auto_loan_adjust_area
+
+- story: personal loan for salaried person
+  steps:
+  - user: |
+      How can a salaried person apply for a personal loan?
+    intent: personal_loan_for_salaried_person
+  - action: action_personal_loan_for_salaried_person
+
+- story: personal loan for land lord
+  steps:
+  - user: |
+      Can a landlord apply for a personal loan?
+    intent: personal_loan_for_land_lord
+  - action: action_personal_loan_for_land_lord
+
+- story: personal Loan for unsecured businessperson
+  steps:
+  - user: |
+      How can an unsecured businessperson apply for a personal loan?
+    intent: personal_Loan_for_unsecured_businessperson
+  - action: action_personal_Loan_for_unsecured_businessperson
+
+- story: tdr against short term loan rate
+  steps:
+  - user: |
+      What's the rate for TDR against a short-term loan?
+    intent: tdr_against_short_term_loan_rate
+  - action: action_tdr_against_short_term_loan_rate
+
+- story: define finsmart
+  steps:
+  - user: |
+      Could you please define "finsmart"?
+    intent: define_finsmart
+  - action: action_define_finsmart

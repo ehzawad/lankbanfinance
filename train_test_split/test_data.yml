@@ -79,8 +79,8 @@ nlu:
     - What's the tdr against short term loan rate?
 - intent: beftn_fee
   examples: |
-    - [BEFTN](ORG) transaction charges?
-    - [BEFTN](ORG) fees info?
+    - BEFTN transaction charges?
+    - BEFTN fees info?
 - intent: card_delivery_issue
   examples: |
     - I have applied for a card, but it hasn't arrived yet- I applied for a card, but I still haven't received it.
@@ -98,12 +98,12 @@ nlu:
     - Finsmart app not functioning
 - intent: beftn_signup
   examples: |
-    - [BEFTN](ORG) enrollment process?
-    - [BEFTN](ORG) enrollment guide?
+    - BEFTN enrollment process?
+    - BEFTN enrollment guide?
 - intent: define_beftn
   examples: |
-    - [BEFTN](ORG) definition?
-    - What does [BEFTN](ORG) mean?
+    - BEFTN definition?
+    - What does BEFTN mean?
 - intent: documents_for_applying_card
   examples: |
     - Can you clarify the paperwork needed to apply for a new card?
@@ -172,9 +172,9 @@ nlu:
     - I need to recharge my phone; can you tell me how?
 - intent: transfer_process_beftn
   examples: |
-    - How to use [BEFTN](ORG) for money transfer?
-    - Send money through [BEFTN](ORG)?
-    - [BEFTN](ORG) money transfer guide?
+    - How to use BEFTN for money transfer?
+    - Send money through BEFTN?
+    - BEFTN money transfer guide?
 - intent: digital_payment_process
   examples: |
     - From LankaBangla to Okwallet digital payment process
