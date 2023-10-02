@@ -535,6 +535,16 @@ nlu:
     - home loan recording fees
     - home loan escrow fees
     - home loan flood certification fees
+    - Are there other charges for home loan
+    - What is the charges for underwriting home loan
+    - What is the charges for commitment home loan
+    - What is the charges for recording home loan
+    - What is the charges for escrow home loan
+    - What is the charges for flood certification home loan
+    - What is the charges for courier home loan
+    - What is the charges for wire transfer home loan
+    - What is the charges for prepayment penalty home loan
+    - What is the charges for late payment home loan
     - home loan title insurance fees
     - home loan maintenance fees
 - intent: minimum_net_income_auto_loan_application
