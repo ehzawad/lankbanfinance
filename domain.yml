@@ -46,7 +46,6 @@ intents:
   - mood_great
   - mood_unhappy
   - normal_deposit_documents
-  - only_nagad_digital_payment_process
   - payment_amount_limit
   - payment_update_time
   - penal_interest_charge
@@ -61,6 +60,7 @@ intents:
   - transfer_process_beftn
   - various_update
   - wrong_card_charge
+  - interest_rate_proptery_loan
 
 
 entities:
@@ -73,9 +73,6 @@ slots:
 responses:
   utter_greet:
   - text: Hey! How are you?
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
   utter_did_that_help:
   - text: Did that help you?
   utter_happy:
@@ -97,6 +94,7 @@ actions:
   - action_auto_loan_adjust_area
   - action_beftn_fee
   - action_beftn_signup
+  - action_interest_rate_proptery_loan
   - action_card_courier_problem
   - action_card_delivery_issue
   - action_chequebook_fee
@@ -122,7 +120,6 @@ actions:
   - action_minimum_net_income_auto_loan_application
   - action_mobile_recharge
   - action_normal_deposit_documents
-  - action_only_nagad_digital_payment_process
   - action_payment_amount_limit
   - action_payment_update_time
   - action_penal_interest_charge

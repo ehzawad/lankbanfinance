@@ -1,0 +1,210 @@
+version: "2.0"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+- intent: ssl_wireless_payment_service
+  examples: |
+    - How can I add money in my bkash account from my Master card?
+- intent: interest_related_query
+  examples: |
+    - Interest related query
+- intent: applicable_charge
+  examples: |
+    - How much charge will be applicable?
+- intent: payment_amount_limit
+  examples: |
+    - payment amount limit
+- intent: affirm
+  examples: |
+    - indeed
+- intent: take_loan
+  examples: |
+    - How do I take loan?
+- intent: payment_update_time
+  examples: |
+    - Payment update time
+- intent: deny
+  examples: |
+    - n
+    - not really
+- intent: account_details
+  examples: |
+    - I want to know about my account balance details
+- intent: deposit_amount_pay
+  examples: |
+    - assist me to pay my deposit amount
+- intent: deposit_payment_solution
+  examples: |
+    - assist me to pay my deposit
+    - How to pay my deposit?
+- intent: emi_settlement_outstanding
+  examples: |
+    - help me to settle my EMI outstanding
+- intent: auto_loan_adjust_area
+  examples: |
+    - How do I adjust my auto loan area?
+    - please tell me how to adjust my auto loan area
+- intent: finsmart_registration_process
+  examples: |
+    - Finsmart registration procedure
+- intent: interest_rate_home_loan
+  examples: |
+    - Tell me about the interest rate for home loan.
+    - What's the interest rate for home loan?
+- intent: interest_rate_housing_loan
+  examples: |
+    - Can you tell me the interest rate for housing loan?
+- intent: interest_rate_property_loan
+  examples: |
+    - Interest rate property loan
+    - Could you specify the interest rate for property loan?
+- intent: minimum_net_income_auto_loan_application
+  examples: |
+    - Tell me about the minimum net income for auto loan application.
+- intent: personal_loan_for_salaried_person
+  examples: |
+    - Explain the personal loan for salaried person.
+    - personal loan for salaried person
+- intent: personal_loan_for_land_lord
+  examples: |
+    - Can you tell me the personal loan for land lord?
+    - What is the personal loan for land lord?
+- intent: personal_Loan_for_unsecured_businessperson
+  examples: |
+    - What is the personal Loan for unsecured businessperson?
+- intent: tdr_against_short_term_loan_rate
+  examples: |
+    - What is the tdr against short term loan rate?
+    - What's the tdr against short term loan rate?
+- intent: beftn_fee
+  examples: |
+    - [BEFTN](ORG) transaction charges?
+    - [BEFTN](ORG) fees info?
+- intent: card_delivery_issue
+  examples: |
+    - I have applied for a card, but it hasn't arrived yet- I applied for a card, but I still haven't received it.
+- intent: home_loan_processing_fee
+  examples: |
+    - Tell me about the processing fee for home loan.
+    - Can you tell me the processing fee for home loan?
+- intent: penal_interest_charge
+  examples: |
+    - What's the penal interest charge?
+    - Penal interest charge
+- intent: finsmart_app_issue
+  examples: |
+    - Finsmart app not responding
+    - Finsmart app not functioning
+- intent: beftn_signup
+  examples: |
+    - [BEFTN](ORG) enrollment process?
+    - [BEFTN](ORG) enrollment guide?
+- intent: define_beftn
+  examples: |
+    - [BEFTN](ORG) definition?
+    - What does [BEFTN](ORG) mean?
+- intent: documents_for_applying_card
+  examples: |
+    - Can you clarify the paperwork needed to apply for a new card?
+    - What should I prepare in terms of documentation for a new card?
+- intent: credit_card_payment_via_booth
+  examples: |
+    - What are the steps for paying my credit card bill at a booth?
+    - Tell me how to pay my credit card bill using a booth.
+- intent: agroj_customer_age
+  examples: |
+    - Agroj Customer age
+    - Explain the age limit for Agroj customers.
+- intent: define_finsmart
+  examples: |
+    - Can you describe Finsmart?
+    - What does Finsmart mean?
+- intent: card_courier_problem
+  examples: |
+    - What to do if card not delivered?
+    - Card delivery problem. Need assistance
+- intent: dollar_endorse_capable
+  examples: |
+    - LBFL and dollar endorsement?
+    - LBFL and dollars?
+- intent: chequebook_fee
+  examples: |
+    - What's the pricing for a chequebook?
+    - What's the fee involved in obtaining a chequebook?
+- intent: wrong_card_charge
+  examples: |
+    - Card charged by error. Help!
+    - My card got charged by mistake. Now what?
+    - What if my card's been charged by accident?
+- intent: various_update
+  examples: |
+    - My card details need an update
+    - How do I update my card's mailing address?
+- intent: credit_care_yearly_charge
+  examples: |
+    - How many dollars do I need to pay each year for a credit card?
+    - Please provide the yearly charge for a credit card.
+- intent: credit_card_bill_via_bank
+  examples: |
+    - Can you list the banks that accept credit card bill payments?
+    - Please specify the banks I can use to pay my credit card bills.
+- intent: swasti_documents
+  examples: |
+    - documents for Swasti?
+    - Tell me about the required paperwork for Swasti.
+- intent: protiva_documents
+  examples: |
+    - What's the documentation needed for Protiva?
+    - What do I need in terms of documents for Protiva?
+    - Please tell me the paperwork required for Protiva.
+- intent: normal_deposit_documents
+  examples: |
+    - Normal deposit documents
+    - Explain the documents I must provide for standard deposits.
+- intent: documents_for_loan
+  examples: |
+    - What's the documentation needed for loan?
+    - What are the necessary documents for loan?
+- intent: mobile_recharge
+  examples: |
+    - I want to load up my phone; how do I do it?
+    - I need to recharge my phone; can you tell me how?
+- intent: transfer_process_beftn
+  examples: |
+    - How to use [BEFTN](ORG) for money transfer?
+    - Send money through [BEFTN](ORG)?
+    - [BEFTN](ORG) money transfer guide?
+- intent: digital_payment_process
+  examples: |
+    - From LankaBangla to Okwallet digital payment process
+    - From LankaBangla to SureCash digital payment process
+- intent: apply_for_deposit
+  examples: |
+    - Please guide me on how to submit a deposit application.
+    - Could you explain the steps to apply for a deposit?
+    - What's the procedure for deposit application?
+- intent: digital_payment_charges
+  examples: |
+    - Digital payment charges
+    - From LankaBangla to MyCash digital payment charges
+- intent: greet
+  examples: |
+    - good evening
+    - Hi
+    - hey there
+- intent: fund_transfer_mobile_wallet
+  examples: |
+    - What's the fee for transferring money to Rocket?
+    - What's the fee for transferring money to Upay?
+    - How much does it cost to send money to bKash?
+    - How much does it cost to transfer money to Nagad?
+    - What's the fee for sending money to bKash?
+- intent: home_loan_other_charges
+  examples: |
+    - home loan charge creation fees
+    - home loan prepayment penalty
+    - home loan processing charges
+    - home loan commitment fees
+    - home loan recording fees
+    - home loan title search fees

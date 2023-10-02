@@ -1,0 +1,170 @@
+[
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "account_details",
+      "confidence": 0.19928573071956635
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6028444766998291
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "take_loan",
+      "confidence": 0.26614639163017273
+    }
+  },
+  {
+    "text": "BEFTN registration steps?",
+    "intent": "beftn_signup",
+    "intent_prediction": {
+      "name": "finsmart_registration_process",
+      "confidence": 0.4367080628871918
+    }
+  },
+  {
+    "text": "BEFTN membership?",
+    "intent": "beftn_signup",
+    "intent_prediction": {
+      "name": "define_beftn",
+      "confidence": 0.5095334649085999
+    }
+  },
+  {
+    "text": "home loan processing charges",
+    "intent": "home_loan_other_charges",
+    "intent_prediction": {
+      "name": "home_loan_processing_fee",
+      "confidence": 0.9216921329498291
+    }
+  },
+  {
+    "text": "What will be the enroll process for finsmart?",
+    "intent": "finsmart_registration_process",
+    "intent_prediction": {
+      "name": "beftn_signup",
+      "confidence": 0.25111037492752075
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6009925603866577
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "credit_care_yearly_charge",
+      "confidence": 0.25659120082855225
+    }
+  },
+  {
+    "text": "How much for BEFTN?",
+    "intent": "beftn_fee",
+    "intent_prediction": {
+      "name": "define_beftn",
+      "confidence": 0.47998955845832825
+    }
+  },
+  {
+    "text": "How to get started with BEFTN?",
+    "intent": "beftn_signup",
+    "intent_prediction": {
+      "name": "transfer_process_beftn",
+      "confidence": 0.568066418170929
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "wrong_card_charge",
+      "confidence": 0.4893516004085541
+    }
+  },
+  {
+    "text": "BEFTN transaction charges?",
+    "intent": "beftn_fee",
+    "intent_prediction": {
+      "name": "transfer_process_beftn",
+      "confidence": 0.29705533385276794
+    }
+  },
+  {
+    "text": "Sign up for BEFTN?",
+    "intent": "beftn_signup",
+    "intent_prediction": {
+      "name": "beftn_fee",
+      "confidence": 0.5330163240432739
+    }
+  },
+  {
+    "text": "How can I join BEFTN?",
+    "intent": "beftn_signup",
+    "intent_prediction": {
+      "name": "define_beftn",
+      "confidence": 0.39385148882865906
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3181416392326355
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5879805684089661
+    }
+  },
+  {
+    "text": "What's BEFTN cost?",
+    "intent": "beftn_fee",
+    "intent_prediction": {
+      "name": "define_beftn",
+      "confidence": 0.5949112772941589
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4732694625854492
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.17918677628040314
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2699720859527588
+    }
+  }
+]

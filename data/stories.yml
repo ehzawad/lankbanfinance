@@ -9,26 +9,6 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
 - story: mobile recharge
   steps:
   - intent: mobile_recharge
@@ -175,11 +155,6 @@ stories:
   steps:
   - intent: take_loan
   - action: action_take_loan
-
-- story: only nagad digital payment process
-  steps:
-  - intent: only_nagad_digital_payment_process
-  - action: action_only_nagad_digital_payment_process
 
 - story: payment update time
   steps:

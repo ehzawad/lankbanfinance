@@ -16,19 +16,7 @@ nlu:
     - goodevening
     - good afternoon
     - Hi
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+
 - intent: affirm
   examples: |
     - yes
@@ -46,38 +34,8 @@ nlu:
     - don't like that
     - no way
     - not really
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -390,7 +348,7 @@ nlu:
     - What must I bring as documents for regular deposits?
     - Tell me about the required paperwork for other normal deposits.
     - What do I need in terms of documents for standard deposits?
-- intent: Agroj_customer_age
+- intent: agroj_customer_age
   examples: |
     - Agroj Customer age
     - What is the age limit for Agroj customers?
@@ -449,10 +407,6 @@ nlu:
     - help me to take loan
     - assist me to take loan
 
-- intent: only_nagad_digital_payment_process
-  examples: |
-    - Only Nagad digital payment process
-    - From LankaBangla to Nagad digital payment process
 
 - intent: payment_update_time
   examples: |
@@ -527,17 +481,17 @@ nlu:
     - What's the interest rate for housing loan?
     - Tell me about the interest rate for housing loan.
 
-- intent: interest_rate_proptery_loan
+- intent: interest_rate_property_loan
   examples: |
-    - Interest rate proptery loan
-    - What is the interest rate for proptery loan?
-    - Can you tell me the interest rate for proptery loan?
-    - Please tell me the interest rate for proptery loan.
-    - What's the interest rate for proptery loan?
-    - Explain the interest rate for proptery loan.
-    - Could you specify the interest rate for proptery loan?
-    - What's the interest rate for proptery loan?
-    - Tell me about the interest rate for proptery loan.
+    - Interest rate property loan
+    - What is the interest rate for property loan?
+    - Can you tell me the interest rate for property loan?
+    - Please tell me the interest rate for property loan.
+    - What's the interest rate for property loan?
+    - Explain the interest rate for property loan.
+    - Could you specify the interest rate for property loan?
+    - What's the interest rate for property loan?
+    - Tell me about the interest rate for property loan.
 
 - intent: home_loan_processing_fee
   examples: |
@@ -697,7 +651,7 @@ nlu:
     - Finsmart app not opening
     - I can't see anything in my FInSmart App
 
-- intent: finsmart_registrtion_process
+- intent: finsmart_registration_process
   examples: |
     - Finsmart registrtion process
     - Finsmart registration steps

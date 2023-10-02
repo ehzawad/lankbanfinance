@@ -467,15 +467,9 @@ class ActionTakeLoan(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text='Please provide your Name, Phone Number,location  for the purpose of loan application. Our executive will communicate with you within a short time.')
 
-# action_only_nagad_digital_payment_process
-class ActionOnlyNagadDigitalPaymentProcess(Action):
-    def name(self) -> Text:
-        return "action_only_nagad_digital_payment_process"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(text='Please follow this link: https://www.lankabangla.com/payment-solutions/')
+
+
 
 # action_payment_update_time
 class ActionPaymentUpdateTime(Action):
