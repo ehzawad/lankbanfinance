@@ -1,0 +1,537 @@
+version: "2.0"
+nlu:
+- intent: deposit_payment_solution
+  examples: |
+    - tell me about deposit payment solution
+    - What is the deal with deposit payment solution
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - am I talking to a human?
+    - are you a human?
+- intent: interest_related_query
+  examples: |
+    - What's the interest rate for a deposit?
+    - Please tell me the interest rate for a deposit.
+    - Can you tell me the interest rate for a deposit?
+- intent: applicable_charge
+  examples: |
+    - How much charge will be applicable for this loan related transaction?
+    - applicable charge
+    - How much charge will be applicable for this loan service?
+- intent: payment_amount_limit
+  examples: |
+    - Is there any limitation on the payment amount?
+    - What is the payment amount limit for this service?
+    - What is the payment amount limit for this transaction?
+    - What is the payment amount limit?
+- intent: affirm
+  examples: |
+    - y
+    - correct
+    - indeed
+    - yes
+    - of course
+- intent: payment_update_time
+  examples: |
+    - Payment update time
+    - help me to know how much time it will take to update my payment
+    - How long it will take to update the payment?
+    - please tell me how much time it will take to update my payment
+    - How much time it will take to update my payment?
+- intent: deny
+  examples: |
+    - no way
+    - no
+    - don't like that
+    - I don't think so
+    - not really
+    - n
+- intent: account_details
+  examples: |
+    - I want to know about my account balance details
+    - I want to know about my account information
+    - I want to know about my account
+    - I want to know about my account balance information
+    - I want to know about my account details
+- intent: deposit_amount_pay
+  examples: |
+    - How do I pay my deposit amount?
+    - please tell me how to pay my deposit amount
+    - How can I pay my deposit amount?
+    - assist me to pay my deposit amount
+    - How can I pay a deposit amount?
+    - How to pay my deposit amount?
+- intent: emi_settlement_outstanding
+  examples: |
+    - please tell me how to settle my EMI outstanding
+    - How do I settle my EMI outstanding?
+    - assist me to settle my EMI outstanding
+    - How to settle my EMI outstanding?
+    - EMI settlement outstanding
+    - How can I settle my EMI outstanding?
+- intent: auto_loan_adjust_area
+  examples: |
+    - assist me to adjust my auto loan area
+    - help me to adjust my auto loan area
+    - please tell me how to adjust my auto loan area
+    - How do I adjust my auto loan area?
+    - How to adjust my auto loan area?
+- intent: tdr_against_short_term_loan_rate
+  examples: |
+    - Explain the tdr against short term loan rate.
+    - Tell me about the tdr against short term loan rate.
+    - What's the tdr against short term loan rate?
+    - Please tell me the tdr against short term loan rate.
+    - Could you specify the tdr against short term loan rate?
+    - Can you tell me the tdr against short term loan rate?
+- intent: interest_rate_home_loan
+  examples: |
+    - What's the interest rate for home loan?
+    - Tell me about the interest rate for home loan.
+    - Can you tell me the interest rate for home loan?
+    - What is the interest rate for home loan?
+    - Could you specify the interest rate for home loan?
+    - Explain the interest rate for home loan.
+- intent: interest_rate_housing_loan
+  examples: |
+    - What's the interest rate for housing loan?
+    - Tell me about the interest rate for housing loan.
+    - Can you tell me the interest rate for housing loan?
+    - Please tell me the interest rate for housing loan.
+    - Could you specify the interest rate for housing loan?
+    - Explain the interest rate for housing loan.
+    - What is the interest rate for housing loan?
+- intent: interest_rate_property_loan
+  examples: |
+    - Interest rate property loan
+    - Tell me about the interest rate for property loan.
+    - Can you tell me the interest rate for property loan?
+    - What's the interest rate for property loan?
+    - Please tell me the interest rate for property loan.
+    - What is the interest rate for property loan?
+- intent: minimum_net_income_auto_loan_application
+  examples: |
+    - Can you tell me the minimum net income for auto loan application?
+    - Could you specify the minimum net income for auto loan application?
+    - Tell me about the minimum net income for auto loan application.
+    - What is the minimum net income for auto loan application?
+    - Please tell me the minimum net income for auto loan application.
+    - minimum net income auto loan application
+- intent: personal_loan_for_salaried_person
+  examples: |
+    - What is the personal loan for salaried person?
+    - What's the personal loan for salaried person?
+    - Explain the personal loan for salaried person.
+    - Could you specify the personal loan for salaried person?
+    - How can a salaried person apply for a personal loan?
+    - Please tell me the personal loan for salaried person.
+    - Can you tell me the personal loan for salaried person?
+- intent: take_loan
+  examples: |
+    - How do I take loan?
+    - How to apply for a loan?
+    - assist me to take loan
+    - please tell me how to take loan
+    - help me to take loan
+    - How can I take loan?
+    - How can I apply for a loan?
+- intent: home_loan_processing_fee
+  examples: |
+    - Tell me about the processing fee for home loan.
+    - Can you tell me the processing fee for home loan?
+    - Could you specify the processing fee for home loan?
+    - Home loan processing fee
+    - Explain the processing fee for home loan.
+    - How much is the processing fee for home loan?
+    - What's the processing fee for home loan?
+- intent: penal_interest_charge
+  examples: |
+    - What is the penal interest charge?
+    - Could you specify the penal interest charge?
+    - Tell me about the penal interest charge.
+    - Please tell me the penal interest charge.
+    - Explain the penal interest charge.
+    - Penal interest charge
+    - What's the penal interest charge?
+- intent: personal_loan_for_land_lord
+  examples: |
+    - personal loan for land lord
+    - What is the personal loan for land lord?
+    - Please tell me the personal loan for land lord.
+    - Explain the personal loan for land lord.
+    - Can you tell me the personal loan for land lord?
+    - Can a landlord apply for a personal loan?
+    - What's the personal loan for land lord?
+    - Tell me about the personal loan for land lord.
+- intent: beftn_fee
+  examples: |
+    - What's BEFTN cost?
+    - BEFTN transfer cost?
+    - BEFTN transaction charges?
+    - BEFTN processing charges?
+    - BEFTN processing fee?
+    - What are the fees for BEFTN
+    - Cost of BEFTN transfers?
+    - BEFTN fees info?
+- intent: beftn_signup
+  examples: |
+    - Sign up for BEFTN?
+    - How to enroll in BEFTN?
+    - BEFTN enrollment process?
+    - How can I enroll in BEFTN?
+    - BEFTN enrollment guide?
+    - How can I join BEFTN?
+    - Enroll in BEFTN services?
+    - BEFTN registration steps?
+- intent: define_beftn
+  examples: |
+    - BEFTN in a nutshell?
+    - What's the deal with BEFTN?
+    - What is BEFTN?
+    - Explain BEFTN to me.
+    - BEFTN explanation?
+    - BEFTN definition?
+    - Tell me about BEFTN.
+    - Can you describe BEFTN?
+- intent: agroj_customer_age
+  examples: |
+    - Explain the age limit for Agroj customers.
+    - What is the age limit for Agroj customers?
+    - What's the age limit for Agroj customers?
+    - Agroj Customer age
+    - What's the age requirement for Agroj customers?
+    - Please tell me the age limit for Agroj customers.
+    - What's the age range for Agroj customers?
+    - Could you specify the age requirement for Agroj customers?
+- intent: personal_Loan_for_unsecured_businessperson
+  examples: |
+    - What is the personal Loan for unsecured businessperson?
+    - What's the personal Loan for unsecured businessperson?
+    - What's the personal Loan for unsecured businessman?
+    - Can you tell me the personal Loan for unsecured businessperson?
+    - Explain the personal Loan for unsecured businesswoman.
+    - Could you specify the personal Loan for unsecured businessperson?
+    - Explain the personal Loan for unsecured businessperson.
+    - Tell me about the personal Loan for unsecured businessperson.
+- intent: define_finsmart
+  examples: |
+    - Finsmart in a nutshell?
+    - What is Finsmart exactly?
+    - What does Finsmart mean?
+    - Explain Finsmart to me.
+    - Finsmart explanation?
+    - What is Finsmart?
+    - Can you describe Finsmart?
+    - Tell me about Finsmart.
+- intent: finsmart_registration_process
+  examples: |
+    - Finsmart registration procedure
+    - How to register in finsmart?
+    - How can I enroll in finsmart?
+    - Finsmart registrtion process steps
+    - Finsmart registration guide
+    - What is the registration process for finsmart?
+    - Finsmart registration process
+    - How can I register in finsmart?
+- intent: dollar_endorse_capable
+  examples: |
+    - Dollar endorsement LBFL?
+    - Dollar endorsement with LBFL card?
+    - LBFL card for endorsing dollars?
+    - LBFL and dollar endorsement?
+    - LBFL card dollars?
+    - LBFL card for USD?
+    - LBFL and dollar transactions?
+    - LBFL card for dollars?
+- intent: chequebook_fee
+  examples: |
+    - What is the cost of a chequebook?
+    - How much fee for chequebook?
+    - How expensive is it to order a chequebook?
+    - Can you provide information about the cost of a chequebook?
+    - Can you tell me the fee associated with a chequebook?
+    - I'd like to know the price for a chequebook, please.
+    - What's the pricing for a chequebook?
+    - What's the fee involved in obtaining a chequebook?
+    - What's the charge for ordering a chequebook?
+- intent: wrong_card_charge
+  examples: |
+    - I got charged wrongly on my card. What do I do?
+    - Card charged by error. Help!
+    - I'm seeing an extra charge on my card. How to fix it?
+    - They charged my card incorrectly. Help me out.
+    - My card got charged by mistake. Now what?
+    - What if my card's been charged by accident?
+    - Wrong card charge. What's the deal?
+    - Wrong card charge. What's the fix?
+    - There's a weird charge on my card. What now?
+- intent: various_update
+  examples: |
+    - Can you help with the issue of my card PIN
+    - How to change my card's mailing address and update my details?
+    - My card PIN didn't arrive!
+    - How do I update my card's mailing address?
+    - What's the process to update if I haven't received my card PIN?
+    - I need to update my profile information.
+    - Need to update my contact information for the card
+    - I haven't received my card PIN.
+    - I want to update my profile information
+- intent: credit_care_yearly_charge
+  examples: |
+    - Can you tell me how much I'll pay annually for a credit card?
+    - Tell me the amount I'll be charged yearly for a credit card.
+    - What's the annual fee for a credit card?
+    - Please provide the yearly charge for a credit card.
+    - Could you specify the annual cost of having a credit card?
+    - What is the yearly cost of a credit card?
+    - What is the yearly charge for a credit card?
+    - What's the yearly fee associated with a credit card?
+    - I want to know the yearly expense for a credit card.
+- intent: documents_for_applying_card
+  examples: |
+    - What documents do I need to apply for a card?
+    - I'd like to know what documents are essential for a new card application.
+    - Could you list the necessary paperwork for a new card application?
+    - What should I prepare in terms of documentation for a new card?
+    - Tell me about the documents I need to submit for a new card application.
+    - Could you outline the necessary documentation for a new card application, please?
+    - Please provide the documentation requirements for applying for a new card.
+    - Can you clarify the paperwork needed to apply for a new card?
+- intent: credit_card_payment_via_booth
+  examples: |
+    - How can I make a credit card payment via a booth?
+    - What are the steps for paying my credit card bill at a booth?
+    - Tell me how to pay my credit card bill using a booth.
+    - How do I pay my credit card bill at a booth?
+    - Please explain how I can settle my credit card bill at a booth.
+    - Help me understand paying my credit card bill using a booth.
+    - What's the process for paying my credit card bill at a booth?
+    - Explain how to use a booth to pay my credit card bill.
+    - I need help paying my credit card bill at a booth.
+- intent: credit_card_bill_via_bank
+  examples: |
+    - From which bank I can pay my credit cards bill?
+    - Can you list the banks that accept credit card bill payments?
+    - Give me the names of banks where I can settle credit card bills.
+    - Which banks offer services for credit card bill payments?
+    - I want to know which bank accepts credit card bill payments.
+    - Where can I pay my credit card bills from a bank?
+    - Which bank allows me to pay my credit card bills?
+    - From which bank can I conveniently pay off my credit card dues?
+    - Please specify the banks I can use to pay my credit card bills.
+- intent: ssl_wireless_payment_service
+  examples: |
+    - How can I add money in my bkash account from my VISA card?
+    - How can I add money in my bkash account from my Master card?
+    - How can I pay my SSL wireless bill through iPay?
+    - How can I pay my SSL wireless bill through bkash?
+    - How can I pay my SSL wireless bill through Upay?
+    - Tell me about the SSL wireless payment service.
+    - How can I pay my SSL wireless bill through SureCash?
+    - How to make payment through bkash via SSL wireless?
+    - How can I pay my SSL wireless bill through Rocket?
+- intent: swasti_documents
+  examples: |
+    - Please tell me the paperwork needed for Swasti.
+    - Tell me about the required paperwork for Swasti.
+    - What do I need to provide as documents for Swasti?
+    - What's the documentation required for Swasti?
+    - Explain the documents I should have for Swasti.
+    - What do I need in terms of documents for Swasti?
+    - What are the necessary documents for Swasti?
+    - Could you specify the papers necessary for Swasti?
+    - documents for Swasti?
+- intent: protiva_documents
+  examples: |
+    - Explain the documents I must provide for Protiva.
+    - Could you specify the papers necessary for Protiva?
+    - What do I need in terms of documents for Protiva?
+    - What's the documentation needed for Protiva?
+    - Can you list the papers I should have for Protiva?
+    - What are the necessary documents for Protiva?
+    - What must I bring as documents for Protiva?
+    - Tell me about the required paperwork for Protiva.
+- intent: normal_deposit_documents
+  examples: |
+    - Normal deposit documents
+    - What must I bring as documents for regular deposits?
+    - What documents do I need for regular deposits?
+    - What's the documentation needed for common deposits?
+    - Please tell me the paperwork required for typical deposits.
+    - What are the necessary documents for regular deposits?
+    - What do I need in terms of documents for standard deposits?
+    - Can you list the papers I should have for standard deposits?
+    - Tell me about the required paperwork for other normal deposits.
+- intent: documents_for_loan
+  examples: |
+    - What documents are required for a loan application?
+    - Tell me about the required paperwork for loan.
+    - Please tell me the paperwork required for loan.
+    - Explain the documents I must provide for loan.
+    - What's the documentation needed for loan?
+    - What must I bring as documents for loan?
+    - What do I need in terms of documents for loan?
+    - What documents do I need for loan?
+    - What are the necessary documents for loan?
+- intent: finsmart_app_issue
+  examples: |
+    - I'm facing a finsmart app issue
+    - My FinSmart App is not opening
+    - Finsmart app not loading
+    - Finsmart app not opening
+    - Finsmart app not responding
+    - Finsmart app not starting
+    - My FinSmart App is not working
+    - I can't see anything in my FInSmart App
+    - Finsmart app not running
+- intent: mobile_recharge
+  examples: |
+    - How do I put money on my phone?
+    - What's the deal with reloading my mobile?
+    - Can you show me how to top up my mobile?
+    - I want to load up my phone; how do I do it?
+    - What's the way to refill my mobile balance?
+    - I'm clueless about topping up my mobile; can you assist?
+    - How do I add money to my phone?
+    - I need to recharge my phone; can you tell me how?
+    - Help me out with recharging my mobile, please.
+- intent: transfer_process_beftn
+  examples: |
+    - BEFTN money transfer guide?
+    - Send money with BEFTN?
+    - BEFTN money transfer steps?
+    - BEFTN transfer process?
+    - How can I transfer money through BEFTN
+    - Steps for BEFTN money transfer?
+    - BEFTN transaction procedure?
+    - Send money through BEFTN?
+    - How to transfer money via BEFTN?
+    - BEFTN transfer method?
+- intent: digital_payment_process
+  examples: |
+    - From LankaBangla to SureCash digital payment process
+    - From LankaBangla to bkash digital payment process
+    - From LankaBangla to iPay digital payment process
+    - From LankaBangla to Okwallet digital payment process
+    - Digital payment process
+    - From LankaBangla to Dhaka Bank Go digital payment process
+    - From LankaBangla to Nagad digital payment process
+    - From LankaBangla to Upay digital payment process
+    - From LankaBangla to Dmoney digital payment process
+    - From LankaBangla to AB Direct digital payment process
+- intent: apply_for_deposit
+  examples: |
+    - How do I go about applying for a deposit?
+    - What's the procedure for deposit application?
+    - Could you elucidate the steps to request a deposit?
+    - Could you explain the steps to apply for a deposit?
+    - how can I apply for deposit
+    - Please guide me on how to submit a deposit application.
+    - What's the process for applying for a deposit?
+    - How can I initiate the deposit application?
+    - Can you provide information on applying for a deposit?
+- intent: digital_payment_charges
+  examples: |
+    - From LankaBangla to Dmoney digital payment charges
+    - From LankaBangla to AB Direct digital payment charges
+    - From LankaBangla to Upay digital payment charges
+    - From LankaBangla to Dhaka Bank Go digital payment charges
+    - From LankaBangla to Nagad digital payment charges
+    - From LankaBangla to iPay digital payment charges
+    - From LankaBangla to Ok wallet digital payment charges
+    - From LankaBangla to SureCash digital payment charges
+    - Digital payment charges
+    - From LankaBangla to Rocket digital payment charges
+    - From LankaBangla to MyCash digital payment charges
+- intent: greet
+  examples: |
+    - good morning
+    - moin
+    - goodevening
+    - hello
+    - hey dude
+    - hey there
+    - good evening
+    - Hi
+    - good afternoon
+    - hey
+    - let's go
+- intent: card_delivery_issue
+  examples: |
+    - I have an issue with the delivery of my card
+    - Can you assist me with the card delivery? I applied for it.
+    - Card not here. What to do?
+    - New card not delivered. How to resolve?
+    - Courier problem with my card. Who to contact?
+    - Card delivery delay. Investigate?
+    - My card hasn't been delivered, and I'm concerned because I applied for it.
+    - Card not delivered. What to do?
+    - Card courier issue. Help?
+    - I haven't received my card after applying for it.
+    - Card not received. Check please.
+    - What to do if card not delivered?
+    - I applied for a card, but it's taking too long to arrive.
+    - The courier seems to have an issue delivering the card I applied for.
+    - There's an issue with delivering the card I applied for.
+    - I'm facing a delay in getting the card I applied for.
+    - What should I do if the card I applied for hasn't been delivered?
+- intent: fund_transfer_mobile_wallet
+  examples: |
+    - What's the fee for transferring money to Rocket?
+    - What's the fee for sending money to Rocket?
+    - How much does it cost to transfer money to bKash?
+    - Fund transfer processing fee for adding money to bKash
+    - What's the fee for sending money to Nagad?
+    - How much does it cost to add money to bKash?
+    - How much does it cost to transfer money to Nagad?
+    - What's the fee for transferring money to bKash?
+    - Fund transfer processing fee for adding money to Rocket
+    - How much does it cost to send money to Nagad?
+    - Fund transfer processing fee for adding money to Nagad
+    - What's the fee for sending money to Upay?
+    - What's the fee for adding money to Rocket?
+    - How much does it cost to transfer money to Rocket?
+    - What's the fee for transferring money to Nagad?
+    - How much does it cost to add money to UPay?
+    - What's the fee for adding money to bKash?
+    - What's the fee for adding money to Nagad?
+    - How much does it cost to send money to Upay?
+    - What's the fee for adding money to UPay?
+    - How do I transfer money to my mobile wallet?
+    - How much does it cost to add money to Nagad?
+    - What's the fee for sending money to bKash?
+- intent: home_loan_other_charges
+  examples: |
+    - What is the charges for commitment home loan
+    - home loan mortgage expenses
+    - Are there other charges for home loan
+    - home loan processing charges
+    - home loan notary fees
+    - home loan origination fees
+    - home loan credit report fees
+    - What is the charges for underwriting home loan
+    - home loan flood certification fees
+    - What is the charges for courier home loan
+    - home loan underwriting fees
+    - home loan survey fees
+    - home loan appraisal fees
+    - home loan wire transfer fees
+    - What is the charges for recording home loan
+    - home loan recording fees
+    - home loan courier fees
+    - home loan insurance fees
+    - home loan hypothecation charges
+    - home loan charge creation fees
+    - home loan vetting charges
+    - home loan tax and VAT
+    - home loan maintenance fees
+    - home loan documentation fees
+    - What is the charges for prepayment penalty home loan
+    - home loan title search fees
+    - home loan commitment fees
+    - What is the charges for wire transfer home loan
+    - home loan prepayment penalty
+    - home loan redemption fees
+    - home loan escrow fees
+    - home loan title insurance fees
