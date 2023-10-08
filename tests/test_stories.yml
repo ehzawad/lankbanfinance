@@ -2,17 +2,13 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-# - story: bot challenge
-#   steps:
-#   - user: |
-#       are you a bot?
-#     intent: bot_challenge
-#   - action: utter_iamabot 
 
 - story: finsmart registration process
   steps:
   - user: |
       what is the finsmart registration process
+      just tell me the finsmart registration process
+      How can I register for finsmart?
     intent: finsmart_registration_process
   - action: action_finsmart_registration_process
 
@@ -20,6 +16,8 @@ stories:
   steps:
   - user: |
       I'm facing a finsmart app issue
+      I'm having a finsmart app issue
+      I'm having an issue with the finsmart app
     intent: finsmart_app_issue
   - action: action_finsmart_app_issue
 
@@ -28,6 +26,8 @@ stories:
   steps:
   - user: |
       I want to do a mobile recharge
+      I want to recharge my mobile
+      How can I recharge my mobile?
     intent: mobile_recharge
   - action: action_mobile_recharge
 
@@ -35,6 +35,8 @@ stories:
   steps:
   - user: |
       Is the dollar endorse capable?
+      Is the dollar endorse possible?
+      Can I endorse dollars?
     intent: dollar_endorse_capable
   - action: action_dollar_endorse_capable
 
@@ -42,6 +44,8 @@ stories:
   steps:
   - user: |
       What are the fees for BEFTN?
+      What's the fee for BEFTN?
+      How much is the fee for BEFTN?
     intent: beftn_fee
   - action: action_beftn_fee
 
@@ -49,6 +53,8 @@ stories:
   steps:
   - user: |
       Explain the transfer process for BEFTN
+      How can I transfer money via BEFTN?
+      How can I transfer money using BEFTN?
     intent: transfer_process_beftn
   - action: action_transfer_process_beftn
 
@@ -56,6 +62,8 @@ stories:
   steps:
   - user: |
       How do I sign up for BEFTN?
+      How can I sign up for BEFTN?
+      How can I register for BEFTN?
     intent: beftn_signup
   - action: action_beftn_signup
 
@@ -63,6 +71,8 @@ stories:
   steps:
   - user: |
       Can you define what BEFTN stands for?
+      What does BEFTN stand for?
+      What is BEFTN?
     intent: define_beftn
   - action: action_define_beftn
 
@@ -70,6 +80,8 @@ stories:
   steps:
   - user: |
       How much is the fee for a chequebook?
+      What's the fee for a chequebook?
+      What are the fees for a chequebook?
     intent: chequebook_fee
   - action: action_chequebook_fee
 
@@ -77,6 +89,8 @@ stories:
   steps:
   - user: |
       There seems to be a wrong charge on my card.
+      I have a wrong charge on my card.
+      I have a wrong charge on my credit card.
     intent: wrong_card_charge
   - action: action_wrong_card_charge
 
@@ -85,6 +99,8 @@ stories:
   steps:
   - user: |
       I have an issue with the delivery of my card.
+      I have an issue with the delivery of my credit card.
+      I have an issue with the delivery of my debit card.
     intent: card_delivery_issue
   - action: action_card_delivery_issue
 
@@ -92,6 +108,7 @@ stories:
   steps:
   - user: |
       What's the yearly charge for my credit card?
+      How much is the yearly charge for my credit card?
     intent: credit_care_yearly_charge
   - action: action_credit_care_yearly_charge
 
@@ -99,6 +116,8 @@ stories:
   steps:
   - user: |
       What documents do I need to apply for a card?
+      What documents are required to apply for a card?
+      What documents are required for applying for a card?
     intent: documents_for_applying_card
   - action: action_documents_for_applying_card
 
@@ -106,6 +125,8 @@ stories:
   steps:
   - user: |
       How can I make a credit card payment via a booth?
+      Is it possible to make a credit card payment via a booth?
+      Can I make a credit card payment via a booth?
     intent: credit_card_payment_via_booth
   - action: action_credit_card_payment_via_booth
 
@@ -113,6 +134,8 @@ stories:
   steps:
   - user: |
       Can I pay my credit card bill via the bank?
+      How can I pay my credit card bill via the bank?
+      Can I pay my credit card bill via a bank?
     intent: credit_card_bill_via_bank
   - action: action_credit_card_bill_via_bank
 
@@ -127,6 +150,7 @@ stories:
   steps:
   - user: |
       Tell me about the SSL wireless payment service.
+      How can I use the SSL wireless payment service?
     intent: ssl_wireless_payment_service
   - action: action_ssl_wireless_payment_service
 
@@ -134,6 +158,7 @@ stories:
   steps:
   - user: |
       What are the charges for digital payments?
+      How much are the charges for digital payments?
     intent: digital_payment_charges
   - action: action_digital_payment_charges
 
@@ -141,6 +166,7 @@ stories:
   steps:
   - user: |
       Tell me the digital payment process.
+      How can I make a digital payment?
     intent: digital_payment_process
   - action: action_digital_payment_process
 
@@ -148,6 +174,7 @@ stories:
   steps:
   - user: |
       How can I apply for a deposit?
+      How to apply for a deposit?
     intent: apply_for_deposit
   - action: action_apply_for_deposit
 
@@ -155,6 +182,7 @@ stories:
   steps:
   - user: |
       What documents are required for Swasti?
+      What are the documents required for Swasti?
     intent: swasti_documents
   - action: action_swasti_documents
 
@@ -162,6 +190,7 @@ stories:
   steps:
   - user: |
       What documents do I need for Protiva?
+      What are the documents required for Protiva?
     intent: protiva_documents
   - action: action_protiva_documents
 
@@ -169,6 +198,7 @@ stories:
   steps:
   - user: |
       What documents are required for a normal deposit?
+      What are the documents required for a normal deposit?
     intent: normal_deposit_documents
   - action: action_normal_deposit_documents
 
@@ -176,6 +206,7 @@ stories:
   steps:
   - user: |
       How can I find out my age as an Agroj customer?
+      How can I find out my age as a customer of Agroj?
     intent: agroj_customer_age
   - action: action_agroj_customer_age
 
@@ -183,6 +214,7 @@ stories:
   steps:
   - user: |
       I have a query related to interest for a deposit.
+      I have a query related to interest for a loan.
     intent: interest_related_query
   - action: action_interest_related_query
 
@@ -190,6 +222,7 @@ stories:
   steps:
   - user: |
       I need details about my account.
+      Please give me details about my account.
     intent: account_details
   - action: action_account_details
 
@@ -197,6 +230,7 @@ stories:
   steps:
   - user: |
       How can I pay a deposit amount?
+      I want to pay a deposit amount.
     intent: deposit_amount_pay
   - action: action_deposit_amount_pay
 
@@ -204,6 +238,7 @@ stories:
   steps:
   - user: |
       What's the payment solution for deposits?
+      Tell me the payment solution for deposits in details!
     intent: deposit_payment_solution
   - action: action_deposit_payment_solution
 
@@ -211,6 +246,7 @@ stories:
   steps:
   - user: |
       How can I apply for a loan?
+      How can I take a loan?
     intent: take_loan
   - action: action_take_loan
 
@@ -218,6 +254,7 @@ stories:
   steps:
   - user: |
       When is the payment update time?
+      What's the payment update time?
     intent: payment_update_time
   - action: action_payment_update_time
 
@@ -225,6 +262,7 @@ stories:
   steps:
   - user: |
       What charges are applicable for the loan services?
+      What charges are applicable for the deposit services?
     intent: applicable_charge
   - action: action_applicable_charge
 
@@ -232,6 +270,7 @@ stories:
   steps:
   - user: |
       Is there a limit on the payment amount?
+      Is there a limit on the payment amount for a loan?
     intent: payment_amount_limit
   - action: action_payment_amount_limit
 
@@ -239,6 +278,7 @@ stories:
   steps:
   - user: |
       What documents are required for a loan application?
+      What documents are required for a loan?
     intent: documents_for_loan
   - action: action_documents_for_loan
 
@@ -246,6 +286,7 @@ stories:
   steps:
   - user: |
       How can I settle my EMI outstanding?
+      How can I settle my EMI?
     intent: emi_settlement_outstanding
   - action: action_emi_settlement_outstanding
 
@@ -253,6 +294,7 @@ stories:
   steps:
   - user: |
       What's the interest rate for a home loan?
+      Tell me the interest rate for a home loan.
     intent: interest_rate_home_loan
   - action: action_interest_rate_home_loan
 
@@ -260,6 +302,7 @@ stories:
   steps:
   - user: |
       What's the interest rate for a housing loan?
+      Tell me the interest rate for a housing loan.
     intent: interest_rate_housing_loan
   - action: action_interest_rate_housing_loan
 
@@ -267,6 +310,7 @@ stories:
   steps:
   - user: |
       What's the interest rate for a property loan?
+      Tell me the interest rate for a property loan.
     intent: interest_rate_property_loan
   - action: action_interest_rate_property_loan
 
@@ -274,6 +318,7 @@ stories:
   steps:
   - user: |
       What's the processing fee for a home loan?
+      Tell me the processing fee for a home loan.
     intent: home_loan_processing_fee
   - action: action_home_loan_processing_fee
 
@@ -281,6 +326,7 @@ stories:
   steps:
   - user: |
       Is there a penal interest charge?
+      Is there a penal interest charge for a loan?
     intent: penal_interest_charge
   - action: action_penal_interest_charge
 
@@ -288,6 +334,7 @@ stories:
   steps:
   - user: |
       Are there other charges for home loan?
+      Are there other charges for a home loan?
     intent: home_loan_other_charges
   - action: action_home_loan_other_charges
 
@@ -295,6 +342,7 @@ stories:
   steps:
   - user: |
       What's the minimum net income required for an auto loan application?
+      What's the minimum net income required for an auto loan?
     intent: minimum_net_income_auto_loan_application
   - action: action_minimum_net_income_auto_loan_application
 
@@ -302,6 +350,7 @@ stories:
   steps:
   - user: |
       Can I adjust the area for an auto loan?
+      Can I adjust the area for an auto loan application?
     intent: auto_loan_adjust_area
   - action: action_auto_loan_adjust_area
 
@@ -309,6 +358,7 @@ stories:
   steps:
   - user: |
       How can a salaried person apply for a personal loan?
+      The process for a salaried person to apply for a personal loan.
     intent: personal_loan_for_salaried_person
   - action: action_personal_loan_for_salaried_person
 
@@ -316,6 +366,7 @@ stories:
   steps:
   - user: |
       Can a landlord apply for a personal loan?
+      How can a landlord apply for a personal loan?
     intent: personal_loan_for_land_lord
   - action: action_personal_loan_for_land_lord
 
@@ -323,6 +374,9 @@ stories:
   steps:
   - user: |
       How can an unsecured businessperson apply for a personal loan?
+      How can an unsecured businessman apply for a personal loan?
+      How can an unsecured businesswoman apply for a personal loan?
+      The process for an unsecured businessperson to apply for a personal loan.
     intent: personal_Loan_for_unsecured_businessperson
   - action: action_personal_Loan_for_unsecured_businessperson
 
@@ -330,6 +384,7 @@ stories:
   steps:
   - user: |
       What's the rate for TDR against a short-term loan?
+      Tell me the rate for TDR against a short-term loan.
     intent: tdr_against_short_term_loan_rate
   - action: action_tdr_against_short_term_loan_rate
 
@@ -337,5 +392,7 @@ stories:
   steps:
   - user: |
       Could you please define "finsmart"?
+      What is "finsmart"?
+      What does "finsmart" mean?
     intent: define_finsmart
   - action: action_define_finsmart
